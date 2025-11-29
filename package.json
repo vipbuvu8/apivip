@@ -1,0 +1,21 @@
+{
+  "name": "fastify-websocket-tool",
+  "version": "1.0.0",
+  "description": "A Fastify server connecting to a WebSocket for game data processing.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node sever.js"
+  },
+  "keywords": [
+    "fastify",
+    "websocket",
+    "cors"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "fastify": "^4.24.3",
+    "ws": "^8.14.2"
+  }
+}
